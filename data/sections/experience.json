@@ -7,242 +7,352 @@
                 "title_long_prefix": "Summary of my",
                 "title_long": "{{Work}} Experience"
             },
-            "es": {
-                "title_short": "Experiencia",
-                "title_short_nav": "Experiencia",
-                "title_long_prefix": "Resumen de mi",
-                "title_long": "Experiencia {{Laboral}}"
-            },
-            "fr": {
-                "title_short": "Expérience",
-                "title_short_nav": "Expérience",
-                "title_long_prefix": "Résumé de mon",
-                "title_long": "Parcours {{Professionel}}"
-            },
-            "ko": {
-                "title_short": "경험",
-                "title_short_nav": "경험",
-                "title_long_prefix": "이것은 내",
-                "title_long": "{{직업적}} 경험"
+            "vi": {
+                "title_short": "Kinh nghiệm",
+                "title_short_nav": "Kinh nghiệm",
+                "title_long_prefix": "Tóm tắt",
+                "title_long": "Kinh nghiệm {{làm việc}}"
             }
         }
     },
-
     "articles": [
         {
             "id": 1,
             "component": "ArticleTimeline",
             "locales": {},
             "settings": {
-                "order_items_by": "id",
-                "order_items_sort": "dateStart"
+                "order_items_by": "dateStart",
+                "order_items_sort": "desc"
             },
             "items": [
                 {
                     "id": 1,
-                    "img": "images/pictures/timeline-place-sapphire-studio.png",
-                    "faIcon": "",
-                    "faIconColors": {"bg": "", "fill": ""},
-                    "dateStart": {"year": 2016, "month": 3},
-                    "dateEnd": {"year": 2018, "month": 6},
+                    "img": "",
+                    "faIcon": "fa-solid fa-ticket",
+                    "faIconColors": {
+                        "bg": "#111",
+                        "fill": "#EEE"
+                    },
+                    "dateStart": {
+                        "year": 2024,
+                        "month": 3
+                    },
+                    "dateEnd": {
+                        "now": true
+                    },
                     "locales": {
                         "en": {
-                            "title": "{{Backend}} Developer",
-                            "province": "Toronto",
-                            "country": "Canada",
-                            "institution": "Sapphire Studio",
-                            "text": "Developed and maintained [[scalable backend systems]] for various clients, optimizing database performance and implementing RESTful APIs to improve application functionality.",
-                            "list": [],
-                            "tags": ["PHP8.0", "MySQL", "Laravel"]
+                            "title": "{{Senior Frontend}} Engineer",
+                            "province": "Ho Chi Minh City",
+                            "country": "Vietnam",
+                            "institution": "Loyalink",
+                            "text": "Building an event management and ticketing platform with React, Next.js, and GraphQL.",
+                            "list": [
+                                "Event creation, management, ticket purchasing, rewards, and achievements",
+                                "Engagement features for users, influencers, event hosts, and clubs",
+                                "Dashboards for ticket sales, payments, and business growth",
+                                "Stripe and PayPal payment gateway integrations",
+                                "Next.js performance work that made the site 30% faster",
+                                "Team of 5 engineers, Agile delivery, code reviews, and sprint planning"
+                            ],
+                            "tags": [
+                                "React",
+                                "Next.js",
+                                "GraphQL",
+                                "TypeScript"
+                            ]
                         },
-                        "es": {
-                            "title": "Desarrollador {{Backend}}",
-                            "province": "Toronto",
-                            "country": "Canadá",
-                            "institution": "Sapphire Studio",
-                            "text": "Desarrollé y mantuve [[sistemas backend escalables]] para varios clientes, optimizando el rendimiento de bases de datos e implementando APIs RESTful para mejorar la funcionalidad de las aplicaciones.",
-                            "list": [],
-                            "tags": []
-                        },
-                        "fr": {
-                            "title": "Développeur {{Backend}}",
-                            "province": "Toronto",
-                            "country": "Canada",
-                            "institution": "Sapphire Studio",
-                            "text": "Développement et maintenance de [[systèmes backend évolutifs]] pour divers clients, optimisation des performances des bases de données et mise en place d’API RESTful pour améliorer les fonctionnalités des applications.",
-                            "list": [],
-                            "tags": []
-                        },
-                        "ko": {
-                            "title": "{{백엔드}} 개발자",
-                            "province": "토론토",
-                            "country": "캐나다",
-                            "institution": "Sapphire Studio",
-                            "text": "다양한 클라이언트를 위한 [[확장 가능한 백엔드 시스템]]을 개발하고 유지보수했으며, 데이터베이스 성능을 최적화하고 RESTful API를 구현하여 애플리케이션 기능을 향상시켰습니다.",
-                            "list": [],
-                            "tags": []
+                        "vi": {
+                            "title": "Kỹ sư {{Frontend cấp cao}}",
+                            "province": "TP. Hồ Chí Minh",
+                            "country": "Việt Nam",
+                            "institution": "Loyalink",
+                            "text": "Xây dựng nền tảng quản lý sự kiện và bán vé với React, Next.js và GraphQL.",
+                            "list": [
+                                "Tạo và quản lý sự kiện, mua vé, phần thưởng và thành tích",
+                                "Tính năng gắn kết cho người dùng, influencer, chủ sự kiện và câu lạc bộ",
+                                "Bảng điều khiển doanh số vé, thanh toán và tăng trưởng kinh doanh",
+                                "Tích hợp cổng thanh toán Stripe và PayPal",
+                                "Tối ưu Next.js giúp trang nhanh hơn 30%",
+                                "Nhóm 5 kỹ sư, Agile, review code và lập kế hoạch sprint"
+                            ],
+                            "tags": [
+                                "React",
+                                "Next.js",
+                                "GraphQL",
+                                "TypeScript"
+                            ]
                         }
                     }
                 },
                 {
                     "id": 2,
-                    "img": "images/pictures/timeline-place-coursera.png",
-                    "faIcon": "",
-                    "faIconColors": {"bg": "", "fill": ""},
-                    "dateStart": {"year": 2018, "month": 6},
-                    "dateEnd": {"year": 2020, "month": 12},
+                    "img": "",
+                    "faIcon": "fa-solid fa-building",
+                    "faIconColors": {
+                        "bg": "#0B3D91",
+                        "fill": "#EEE"
+                    },
+                    "dateStart": {
+                        "year": 2021,
+                        "month": 10
+                    },
+                    "dateEnd": {
+                        "year": 2024,
+                        "month": 2
+                    },
                     "locales": {
                         "en": {
-                            "title": "{{Full-Stack}} Engineer",
-                            "province": "",
-                            "country": "Remote",
-                            "institution": "Coursera",
-                            "text": "Worked on enhancing the Coursera website by implementing new features and improving user experience, utilizing both frontend and backend technologies to ensure seamless functionality.",
-                            "list": [],
-                            "tags": ["Svelte", "NodeJS", "Laravel", "REST APIs", "Docker"]
+                            "title": "{{Senior Frontend}} Engineer",
+                            "province": "Ho Chi Minh City",
+                            "country": "Vietnam",
+                            "institution": "Niteco",
+                            "text": "Led frontend development for enterprise B2B applications using Angular and React.",
+                            "list": [
+                                "Worked with product owners, UX designers, QA, and backend developers",
+                                "Code reviews, technical discussions, and frontend best practices",
+                                "Reusable components and shared libraries",
+                                "Docker, Azure, and CI/CD",
+                                "Mentored teammates and supported onboarding",
+                                "Next.js server-side rendering for SEO and performance"
+                            ],
+                            "tags": [
+                                "Angular",
+                                "React",
+                                "Next.js",
+                                "Docker",
+                                "Azure"
+                            ]
                         },
-                        "es": {
-                            "title": "Ingeniero {{Full-Stack}}",
-                            "province": "",
-                            "country": "Remoto",
-                            "institution": "Coursera",
-                            "text": "Trabajé en la mejora del sitio web de Coursera implementando nuevas funciones y optimizando la experiencia del usuario, utilizando tecnologías tanto de frontend como de backend para garantizar una funcionalidad fluida.",
-                            "list": [],
-                            "tags": []
-                        },
-                        "fr": {
-                            "title": "Ingénieur {{Full-Stack}}",
-                            "province": "",
-                            "country": "Télétravail",
-                            "institution": "Coursera",
-                            "text": "Participation à l'amélioration du site web de Coursera en développant de nouvelles fonctionnalités et en optimisant l’expérience utilisateur, en utilisant des technologies frontend et backend pour assurer un fonctionnement fluide.",
-                            "list": [],
-                            "tags": []
-                        },
-                        "ko": {
-                            "title": "{{풀스택}} 엔지니어",
-                            "province": "",
-                            "country": "원격",
-                            "institution": "Coursera",
-                            "text": "Coursera 웹사이트의 기능을 향상시키기 위해 새로운 기능을 구현하고 사용자 경험을 개선하는 작업을 수행했으며, 프론트엔드와 백엔드 기술을 모두 활용하여 원활한 동작을 보장했습니다.",
-                            "list": [],
-                            "tags": []
+                        "vi": {
+                            "title": "Kỹ sư {{Frontend cấp cao}}",
+                            "province": "TP. Hồ Chí Minh",
+                            "country": "Việt Nam",
+                            "institution": "Niteco",
+                            "text": "Dẫn dắt frontend cho ứng dụng B2B doanh nghiệp bằng Angular và React.",
+                            "list": [
+                                "Làm việc với product owner, UX designer, QA và backend",
+                                "Review code, thảo luận kỹ thuật và chuẩn frontend",
+                                "Component dùng lại và thư viện dùng chung",
+                                "Docker, Azure và CI/CD",
+                                "Hướng dẫn đồng nghiệp và hỗ trợ onboarding",
+                                "Next.js server-side rendering cho SEO và hiệu năng"
+                            ],
+                            "tags": [
+                                "Angular",
+                                "React",
+                                "Next.js",
+                                "Docker",
+                                "Azure"
+                            ]
                         }
                     }
                 },
                 {
                     "id": 3,
-                    "img": "images/pictures/timeline-place-adobe.png",
-                    "faIcon": "",
-                    "faIconColors": {"bg": "", "fill": ""},
-                    "dateStart": {"year": 2020, "month": 12},
-                    "dateEnd": {"year": 2022, "month": 11},
+                    "img": "",
+                    "faIcon": "fa-solid fa-warehouse",
+                    "faIconColors": {
+                        "bg": "#1F6B4A",
+                        "fill": "#EEE"
+                    },
+                    "dateStart": {
+                        "year": 2021,
+                        "month": 4
+                    },
+                    "dateEnd": {
+                        "year": 2021,
+                        "month": 9
+                    },
                     "locales": {
                         "en": {
-                            "title": "{{Backend}} Engineer",
-                            "province": "New York",
-                            "country": "US",
-                            "institution": "Adobe Inc",
-                            "text": "Contributed to the development of robust backend systems for Adobe Creative Cloud, integrating third-party services and improving data processing efficiency through cloud functions.",
-                            "list": [],
-                            "tags": ["JavaScript", "Flutter", "MongoDB", "CodeIgniter", "Kubernetes"]
+                            "title": "{{Senior Frontend}} Engineer",
+                            "province": "Ho Chi Minh City",
+                            "country": "Vietnam",
+                            "institution": "Orion",
+                            "text": "Built warehouse, product, and fulfillment management systems with a team of 3.",
+                            "list": [
+                                "React applications",
+                                "Python APIs"
+                            ],
+                            "tags": [
+                                "React",
+                                "Python"
+                            ]
                         },
-                        "es": {
-                            "title": "Ingeniero {{Backend}}",
-                            "province": "Nueva York",
-                            "country": "EE. UU.",
-                            "institution": "Adobe Inc",
-                            "text": "Contribuí al desarrollo de sistemas backend robustos para Adobe Creative Cloud, integrando servicios de terceros y mejorando la eficiencia del procesamiento de datos mediante funciones en la nube.",
-                            "list": [],
-                            "tags": []
-                        },
-                        "fr": {
-                            "title": "Ingénieur {{Backend}}",
-                            "province": "New York",
-                            "country": "États-Unis",
-                            "institution": "Adobe Inc",
-                            "text": "Participation au développement de systèmes backend robustes pour Adobe Creative Cloud, intégration de services tiers et amélioration de l’efficacité du traitement des données via des fonctions cloud.",
-                            "list": [],
-                            "tags": []
-                        },
-                        "ko": {
-                            "title": "{{백엔드}} 엔지니어",
-                            "province": "뉴욕",
-                            "country": "미국",
-                            "institution": "Adobe Inc",
-                            "text": "Adobe Creative Cloud를 위한 견고한 백엔드 시스템 개발에 기여하였으며, 서드파티 서비스 통합 및 클라우드 기능을 활용한 데이터 처리 효율 향상에 집중했습니다.",
-                            "list": [],
-                            "tags": []
+                        "vi": {
+                            "title": "Kỹ sư {{Frontend cấp cao}}",
+                            "province": "TP. Hồ Chí Minh",
+                            "country": "Việt Nam",
+                            "institution": "Orion",
+                            "text": "Xây dựng hệ thống quản lý kho, sản phẩm và fulfillment với nhóm 3 người.",
+                            "list": [
+                                "Ứng dụng React",
+                                "API Python"
+                            ],
+                            "tags": [
+                                "React",
+                                "Python"
+                            ]
                         }
                     }
                 },
                 {
                     "id": 4,
                     "img": "",
-                    "faIcon": "fa-brands fa-apple",
-                    "faIconColors": {"bg": "#111", "fill": "#EEE"},
-                    "dateStart": {"year": 2022, "month": 12},
-                    "dateEnd": {"now": true},
+                    "faIcon": "fa-brands fa-aws",
+                    "faIconColors": {
+                        "bg": "#FF9900",
+                        "fill": "#111"
+                    },
+                    "dateStart": {
+                        "year": 2020,
+                        "month": 3
+                    },
+                    "dateEnd": {
+                        "year": 2021,
+                        "month": 3
+                    },
                     "locales": {
                         "en": {
-                            "title": "{{Senior Backend}} Developer",
-                            "province": "California",
-                            "country": "US",
-                            "institution": "Apple Inc",
-                            "text": "Leading a team of developers to design and implement backend solutions for Apple's services, with a focus on:",
+                            "title": "{{Fullstack}} Engineer",
+                            "province": "Ho Chi Minh City",
+                            "country": "Vietnam",
+                            "institution": "Waves",
+                            "text": "Delivered applications with React, Angular, and WordPress, and ran AWS infrastructure.",
                             "list": [
-                                "Security",
-                                "Scalability to handle millions of users globally",
-                                "Developing RESTful APIs",
-                                "Optimizing database performance with PostgreSQL",
-                                "Building services with Swift, PHP, and GraphQL"
+                                "EC2, S3, CloudFront, and Firebase",
+                                "Expandable full-stack architecture",
+                                "Applications built from scratch, with less reliance on third-party tools"
                             ],
-                            "tags": ["JavaScript", "React", "NodeJS", "PHP", "REST APIs", "Docker"]
+                            "tags": [
+                                "React",
+                                "Angular",
+                                "WordPress",
+                                "AWS"
+                            ]
                         },
-                        "es": {
-                            "title": "Desarrollador {{Senior Backend}}",
-                            "province": "California",
-                            "country": "EE. UU.",
-                            "institution": "Apple Inc",
-                            "text": "Liderando un equipo de desarrolladores para diseñar e implementar soluciones backend para los servicios de Apple, con enfoque en:",
+                        "vi": {
+                            "title": "Kỹ sư {{Fullstack}}",
+                            "province": "TP. Hồ Chí Minh",
+                            "country": "Việt Nam",
+                            "institution": "Waves",
+                            "text": "Phát triển ứng dụng với React, Angular và WordPress, vận hành hạ tầng AWS.",
                             "list": [
-                                "Seguridad",
-                                "Escalabilidad para manejar millones de usuarios a nivel global",
-                                "Desarrollo de APIs RESTful",
-                                "Optimización del rendimiento de bases de datos con PostgreSQL",
-                                "Creación de servicios con Swift, PHP y GraphQL"
+                                "EC2, S3, CloudFront và Firebase",
+                                "Kiến trúc full-stack có thể mở rộng",
+                                "Xây ứng dụng từ đầu, giảm phụ thuộc công cụ bên thứ ba"
                             ],
-                            "tags": []
+                            "tags": [
+                                "React",
+                                "Angular",
+                                "WordPress",
+                                "AWS"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "img": "",
+                    "faIcon": "fa-solid fa-bag-shopping",
+                    "faIconColors": {
+                        "bg": "#C45C26",
+                        "fill": "#EEE"
+                    },
+                    "dateStart": {
+                        "year": 2016,
+                        "month": 4
+                    },
+                    "dateEnd": {
+                        "year": 2020,
+                        "month": 2
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{Senior Frontend}} Engineer",
+                            "province": "Ho Chi Minh City",
+                            "country": "Vietnam",
+                            "institution": "FabFitFun",
+                            "text": "Built customer-facing features with React and Node.js, with product and design.",
+                            "list": [
+                                "Automated testing with Jest and Enzyme",
+                                "End-to-end testing that reduced regression risk by 40%"
+                            ],
+                            "tags": [
+                                "React",
+                                "Node.js",
+                                "Jest",
+                                "Enzyme"
+                            ]
                         },
-                        "fr": {
-                            "title": "Développeur {{Senior Backend}}",
-                            "province": "Californie",
-                            "country": "États-Unis",
-                            "institution": "Apple Inc",
-                            "text": "Responsable d'une équipe de développeurs pour concevoir et mettre en œuvre des solutions backend pour les services Apple, en se concentrant sur :",
+                        "vi": {
+                            "title": "Kỹ sư {{Frontend cấp cao}}",
+                            "province": "TP. Hồ Chí Minh",
+                            "country": "Việt Nam",
+                            "institution": "FabFitFun",
+                            "text": "Xây tính năng cho khách hàng với React và Node.js, phối hợp product và design.",
                             "list": [
-                                "La sécurité",
-                                "L’évolutivité pour gérer des millions d’utilisateurs dans le monde",
-                                "Le développement d’API RESTful",
-                                "L’optimisation des performances des bases de données avec PostgreSQL",
-                                "La création de services avec Swift, PHP et GraphQL"
+                                "Kiểm thử tự động với Jest và Enzyme",
+                                "Kiểm thử end-to-end giảm 40% rủi ro regression"
                             ],
-                            "tags": []
+                            "tags": [
+                                "React",
+                                "Node.js",
+                                "Jest",
+                                "Enzyme"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "img": "",
+                    "faIcon": "fa-solid fa-laptop-code",
+                    "faIconColors": {
+                        "bg": "#333",
+                        "fill": "#EEE"
+                    },
+                    "dateStart": {
+                        "year": 2012,
+                        "month": 7
+                    },
+                    "dateEnd": {
+                        "year": 2016,
+                        "month": 3
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{Frontend}} Engineer",
+                            "province": "Ho Chi Minh City",
+                            "country": "Vietnam",
+                            "institution": "LHV Software",
+                            "text": "Developed web applications with jQuery, React, and CakePHP.",
+                            "list": [
+                                "Responsive interfaces and reusable frontend plugins and components",
+                                "Fewer critical bugs through refactoring and automated testing"
+                            ],
+                            "tags": [
+                                "jQuery",
+                                "React",
+                                "CakePHP"
+                            ]
                         },
-                        "ko": {
-                            "title": "{{시니어 백엔드}} 개발자",
-                            "province": "캘리포니아",
-                            "country": "미국",
-                            "institution": "Apple Inc",
-                            "text": "Apple의 서비스를 위한 백엔드 솔루션을 설계하고 구현하는 개발팀을 이끌며 다음에 중점을 두고 있습니다:",
+                        "vi": {
+                            "title": "Kỹ sư {{Frontend}}",
+                            "province": "TP. Hồ Chí Minh",
+                            "country": "Việt Nam",
+                            "institution": "LHV Software",
+                            "text": "Phát triển ứng dụng web với jQuery, React và CakePHP.",
                             "list": [
-                                "보안",
-                                "전 세계 수백만 사용자를 처리할 수 있는 확장성",
-                                "RESTful API 개발",
-                                "PostgreSQL을 사용한 데이터베이스 성능 최적화",
-                                "Swift, PHP, GraphQL로 서비스 구축"
+                                "Giao diện responsive, plugin và component frontend dùng lại",
+                                "Giảm lỗi nghiêm trọng nhờ refactor và kiểm thử tự động"
                             ],
-                            "tags": []
+                            "tags": [
+                                "jQuery",
+                                "React",
+                                "CakePHP"
+                            ]
                         }
                     }
                 }
